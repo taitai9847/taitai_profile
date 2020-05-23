@@ -1,0 +1,12 @@
+.card {
+    margin-top: 15px;
+    filter: drop-shadow(2px 2px 2px rgba(0,0,0,0.4));
+
+    .card-title {
+        padding: 0.25em 0.5em;
+        border-left: solid 5px #7db4e6;
+    }
+}
+.date {
+    color: gray;
+}

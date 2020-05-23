@@ -1,3 +1,44 @@
 // Place all the styles related to the Homes controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+.img-wrap {
+    animation: img-wrap 5s cubic-bezier(.4, 0, .2, 1);
+}
+
+@keyframes img-wrap {
+    0% {
+      clip-path: circle(0 at 50% 50%);
+      -webkit-clip-path: circle(0 at 50% 50%);
+    }
+    
+    100% {
+      clip-path: circle(100% at 50% 50%);
+      -webkit-clip-path: circle(100% at 50% 50%);
+    }
+}
+
+.profile_text {
+    padding: 50px 30px;
+
+    h1 {
+        font-size: 50px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+}
+
+.profile_text_detail {
+    margin-top: 30px;
+
+    p {
+        font-size: 18px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .text_bold {
+        font-size: 23px;
+        padding-left: 15px;
+    }
+    .side_dec {
+        padding: 0.25em 0.5em;
+        border-left: solid 5px #7db4e6;
+    }
+}
